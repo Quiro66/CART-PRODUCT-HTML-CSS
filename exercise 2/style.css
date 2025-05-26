@@ -1,0 +1,47 @@
+/* We align the items in the center, add a font of our choice */
+* {
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+/* We add a background color, we add that the section is flex, we put the content in the center and we adjust and align */
+body {
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* We set the width to 400 x 600 pixels with a border and a padding of 10 px */
+section {
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+}
+/* We add that the image is 100px wider than the card and that the height is 300 px with a 10px border */
+section img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+/* we set the h2 to green */
+h2 {
+    color: #03b300;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #207298;
+    color: #f3f3f3;
+    cursor: pointer;
+}
